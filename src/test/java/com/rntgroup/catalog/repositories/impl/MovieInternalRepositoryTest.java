@@ -3,7 +3,6 @@ package com.rntgroup.catalog.repositories.impl;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 
@@ -47,9 +46,9 @@ public class MovieInternalRepositoryTest {
 
   @Test
   void testFindById() {
-    Optional<MovieRecord> movie = repository.findById(null);
+    Optional<MovieRecord> movie = repository.findById(1001);
     assertTrue(movie.isPresent());
-    assertNull(movie.get().getId());
+    assertEquals(1001, movie.get().getId());
     assertEquals("Movie Three", movie.get().getName());
   }
 
