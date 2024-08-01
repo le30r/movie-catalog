@@ -1,4 +1,4 @@
-package com.rntgroup.catalog.repositories.entity;
+package com.rntgroup.catalog.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

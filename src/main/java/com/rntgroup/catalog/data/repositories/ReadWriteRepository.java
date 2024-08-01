@@ -1,4 +1,4 @@
-package com.rntgroup.catalog.repositories;
+package com.rntgroup.catalog.data.repositories;
 
 public interface ReadWriteRepository<T, ID> extends ReadOnlyRepository<T, ID> {
 

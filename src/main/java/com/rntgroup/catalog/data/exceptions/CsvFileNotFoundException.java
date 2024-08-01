@@ -1,4 +1,4 @@
-package com.rntgroup.catalog.repositories.exceptions;
+package com.rntgroup.catalog.data.exceptions;
 
 public class CsvFileNotFoundException extends RuntimeException {
   private String path;

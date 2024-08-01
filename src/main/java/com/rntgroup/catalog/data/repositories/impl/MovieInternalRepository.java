@@ -1,11 +1,11 @@
-package com.rntgroup.catalog.repositories.impl;
+package com.rntgroup.catalog.data.repositories.impl;
 
 import com.rntgroup.catalog.configurations.RepositoriesConfig;
-import com.rntgroup.catalog.repositories.ReadOnlyRepository;
-import com.rntgroup.catalog.repositories.csv.CsvRepository;
-import com.rntgroup.catalog.repositories.csv.FileReaderWriterFactory;
-import com.rntgroup.catalog.repositories.entity.MovieRecord;
-import com.rntgroup.catalog.repositories.exceptions.DataProcessingException;
+import com.rntgroup.catalog.data.repositories.ReadOnlyRepository;
+import com.rntgroup.catalog.data.repositories.csv.CsvRepository;
+import com.rntgroup.catalog.data.repositories.csv.FileReaderWriterFactory;
+import com.rntgroup.catalog.data.entity.MovieRecord;
+import com.rntgroup.catalog.data.exceptions.DataProcessingException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Objects;

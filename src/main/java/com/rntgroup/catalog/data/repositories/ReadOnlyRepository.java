@@ -1,4 +1,4 @@
-package com.rntgroup.catalog.repositories;
+package com.rntgroup.catalog.data.repositories;
 
 import java.util.List;
 import java.util.Optional;

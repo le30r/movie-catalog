@@ -7,8 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 
 import com.rntgroup.catalog.configurations.RepositoriesConfig;
-import com.rntgroup.catalog.repositories.csv.FileReaderWriterFactory;
-import com.rntgroup.catalog.repositories.entity.MovieRecord;
+import com.rntgroup.catalog.data.repositories.csv.FileReaderWriterFactory;
+import com.rntgroup.catalog.data.entity.MovieRecord;
+import com.rntgroup.catalog.data.repositories.impl.MovieInternalRepository;
 import java.util.List;
 import java.util.Optional;
 import org.junit.jupiter.api.BeforeEach;

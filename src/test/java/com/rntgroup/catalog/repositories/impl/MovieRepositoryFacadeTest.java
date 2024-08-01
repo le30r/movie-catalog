@@ -10,7 +10,10 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.rntgroup.catalog.repositories.entity.MovieRecord;
+import com.rntgroup.catalog.data.entity.MovieRecord;
+import com.rntgroup.catalog.data.repositories.impl.MovieExternalRepository;
+import com.rntgroup.catalog.data.repositories.impl.MovieInternalRepository;
+import com.rntgroup.catalog.data.repositories.impl.MovieRepositoryFacade;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

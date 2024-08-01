@@ -1,6 +1,6 @@
-package com.rntgroup.catalog.repositories.csv;
+package com.rntgroup.catalog.data.repositories.csv;
 
-import com.rntgroup.catalog.repositories.exceptions.DataProcessingException;
+import com.rntgroup.catalog.data.exceptions.DataProcessingException;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;

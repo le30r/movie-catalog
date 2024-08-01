@@ -1,7 +1,7 @@
-package com.rntgroup.catalog.repositories.impl;
+package com.rntgroup.catalog.data.repositories.impl;
 
-import com.rntgroup.catalog.repositories.RepositoriesFacade;
-import com.rntgroup.catalog.repositories.entity.MovieRecord;
+import com.rntgroup.catalog.data.repositories.RepositoriesFacade;
+import com.rntgroup.catalog.data.entity.MovieRecord;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.rntgroup.catalog.repositories.csv;
+package com.rntgroup.catalog.data.repositories.csv;
 
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.StatefulBeanToCsv;
